@@ -1,11 +1,89 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fluorescence.fr</title>
+    <link href="../style/mainStyle.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <!--<a href="https://www.textstudio.fr/">Générateur de polices</a>-->
+    <script src="https://kit.fontawesome.com/56bc717981.js" crossorigin="anonymous"></script>
 </head>
+<header>
+    <topbar class="topbar">
+        <img class="topbar__logo" src="../img/logo.png" alt="Florescence logo">
+        <div class="topbar__nav">
+            <a href="index.html">Accueil</a>
+            <a href="boutique.html">Boutique</a>
+            <a href="#">A propos</a>
+            <a href="#">Service client</a>
+            <a href="#" class="topbar__connexion">Connexion</a>
+        </div>
+    </topbar>
+    <div class="banner">
+        <img class="banner__img" src="../img/banner.png" alt="fond de bannière">
+        <img class="banner__logo" src="../img/logo.png" alt="logo Fluorescence">
+    </div>
+</header>
+
 <body>
-    
+    <div class="h1-container">
+        <h1 class="collections-h1">Nos collections</h1>
+    </div>
+    <section class="collections">
+        <img class="collections__HOT-img" src="../img/basket1HOT.png" alt="collection 'HOT' de nos baskets">
+        <img class="collections__title-HOT" src="../img/HOT-20-01-2024.png">
+        <img class="collections__FROZEN-img" src="../img/basket2FROZEN.png" alt="collection 'FROZEN' de nos baskets">
+        <img class="collections__title-FROZEN" src ="../img/FROZEN-20-01-2024.png">
+    </section>
+    <section class="promotion">
+        <img class="promotion__banner" src="../img/promotion.png" alt="Promotion du moment: bannière de présentation">
+        <div class="promotion__text">
+            <img class="promotion__logo" src="" alt="logo promotion">
+            <article class="promotion__article">
+                <h1 class="promotion__h1">Promotion du mois</h1>
+                <h2 class="promotion__h2">-40%</h2>
+            </article>
+        </div>
+    </section>
 </body>
+<footer class="footer">
+    <img class="footer__logo" src="../img/logo.png" alt="Florescence logo">
+    <div class="footer__form">
+        <div class="footer-part footer__adress">
+            <h1 class="footer__h1">ADRESSE</h1>
+            <p class="footer__p">8 rue du pressoir 30190 Nîmes, France info@monsite.fr</p>
+            <p class="footer__p-tel">Tél: 04 65 55 81 81</p>
+            <div class="footer__social">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <div class="footer__contact">
+            <h1>CONTACTEZ-NOUS</h1>
+            <div class="footer__contact-container">
+                <div class="footer-part footer__contact-input">
+                    <input type="name" name="name" value="Nom">
+                    <input type="mail" name="mail" value="E-mail">
+                    <input type="tel" name="telephone" value="Téléphone">
+                </div>
+                <div class="footer__contact-textarea-submit">
+                    <textarea id="story" name="story" rows="5" cols="33">Rédigez votre message</textarea>
+                    <button class="send-button" type="submit">Envoyer</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-part footer__actualities">
+            <h1>ACTUALITES</h1>
+            <p>Abonnez-vous à la newsletter</p>
+            <input type="mail" name="mail" value="Saisissez-votre e-mail ici*">
+            <button type="submit" class="subscription-button">S'abonner</button>
+        </div>
+    </div>
+</footer>
+
 </html>

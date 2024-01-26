@@ -1,0 +1,31 @@
+.html-boutique {
+  background-color: rgb(43, 42, 42);
+}
+
+.banner-boutique {
+  width: 100%;
+  height: 250px;
+  background: url(../img/promotion.png);
+  position: relative;
+}
+.banner-boutique__h1 {
+  position: absolute;
+  left: 40%;
+  bottom: 15%;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+}
+.card-container__card {
+  width: 100%;
+}
+.card-container__img {
+  width: 100%;
+}/*# sourceMappingURL=boutiqueStyle.css.map */
