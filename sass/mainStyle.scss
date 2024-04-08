@@ -150,7 +150,7 @@ textarea {
 .footer {
     display:flex;
     flex-direction:column;
-    align-items:center;
+    /*align-items:;*/
     background-color: $second-color;
     color:white;
     width:80%;
@@ -162,14 +162,18 @@ textarea {
     &__form {
         display:flex;
         flex-direction:row;
+        justify-content: space-around;
         margin-bottom:70px;
+        padding-top:30px;
     } 
-
     &__adress,
     &__contact,
     &__actualities {
         display:flex;
         flex-direction:column;
+    }
+    &__contact {
+        margin-right:7%;
     }
 
     &__p,
